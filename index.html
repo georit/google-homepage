@@ -20,6 +20,8 @@
                 <li id="store"><a href="#">Store</a></li>
                 <li id="gmail"><a href="#">Gmail</a></li>
                 <li id="images"><a href="#">Images</a></li>
+                <li id="app-switcher"><a href="#"><img id="app-switcher-img" src="images/app_switcher_icon.png"
+                            alt="Google app-switcher icon"></a></li>
                 <li id="sign-in"><button>Sign in</button></li>
             </ul>
         </nav>
@@ -31,7 +33,11 @@
             <img class="logo-img" src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
 
             <!-- ********** Search Box ********** -->
-            <input class="search-input" type="text">
+            <div class="input-container">
+                <input id="search-input" type="text">
+                <img src="images/search.png" alt="Search icon" id="search-icon">
+                <img src="images/microphone.png" alt="Microphone icon" id="voice-search-icon">
+            </div>
 
             <!-- ********** Search Buttons ********** -->
             <div class="search-buttons">
