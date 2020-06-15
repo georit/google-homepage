@@ -1,0 +1,159 @@
+* {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav li {
+    float: left;
+}
+
+.main-nav li a {
+    display: block;
+    text-align: center;
+    margin: 20px 10px;
+    font-size: .9rem;
+}
+
+.main-nav li a:link, .main-nav li a:visited {
+    color: #6d6d6d;
+}
+
+.main-nav li a:hover, .main-nav li a:active {
+    color: #6d6d6d;
+    text-decoration: underline;
+}
+
+#about {
+    margin-left: 15px;
+}
+
+#store {
+    margin-right: auto;
+}
+
+#sign-in {
+    margin-right: 10px;
+}
+
+#sign-in button {
+    margin: 14px 15px;
+    padding: 6px 12px;
+    vertical-align: auto;
+    background-color: #2270f8;
+    border: none;
+    color: #ffffff;
+    font-size: .9rem;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+#sign-in button:hover, #sign-in button:active {
+    background-color: rgba(34, 112, 248, .9);
+}
+
+#sign-in button:focus {
+    outline: none;
+}
+
+.logo-img {
+    display: block;
+    margin: 200px auto 25px;
+    width: 300px;
+}
+
+.search-input {
+    display: block;
+    width: 500px;
+    margin: 0 auto 25px;
+    border: 1px solid #d1d1d1;
+    border-radius: 20px;
+    height: 2.5rem;
+}
+
+.search-input:focus {
+    outline: none;    
+}
+
+.search-buttons {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 15px;
+    text-align: center;
+    margin-right: 5px;
+    font-size: .9rem;
+    border: none;
+    border-radius: 5px;
+    color: #6d6d6d;
+    background-color: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+}
+
+.btn:hover, .btn:active {
+    border: 1px solid #c7c7c7;
+    background-color: #f1f1f1;
+}
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+}
+
+footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    background-color: #f0f0f0;
+}
+
+.footer-nav {
+    display: flex; 
+    margin-left: 15px;
+}
+
+.footer-nav li a {
+    display: block;
+    text-align: center;
+    margin: 14px 10px;
+    font-size: .9rem;
+}
+
+.footer-nav li a:link, .footer-nav li a:visited {
+    color: #6d6d6d;
+}
+
+.footer-nav li a:hover, .footer-nav li a:active {
+    color: #6d6d6d;
+    text-decoration: underline;
+}
+
+#how-search-works {
+    margin-right: auto;
+}
+
+#settings {
+    margin-right: 15px;
+}
