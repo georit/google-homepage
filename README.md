@@ -1,0 +1,1 @@
+This was a really fun project. I got my hands dirty trying to figure out how to replicate the google homepage. Toughest challenge was pushing the footer content to the bottom of the page. I'm glad there's stackoverflow and MDN docs!
